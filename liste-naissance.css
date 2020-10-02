@@ -271,17 +271,98 @@ td img {
 /*-------------Body--Formulaire-------*/
 
 
+form div {
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#submit_bt {
+    display: flex;
+    justify-content: center;
+}
+
+#submit_bt input {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 50px;
+    margin-left: -2%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+#submit_bt input:hover {
+    color: crimson;
+}
+
+input {
+    margin: .8rem;
+}*
 
 
+#description_div {
+    display: flex;
+}
 
+#msg {
+    display: block;
+    margin-left: 16%;
+    color:black;
+    border-radius: 10px;
+    background-color:white;
+    padding: 0 10px;
+    border: 0 1px;
+}
 
+#selector_div {
+    display: flex;
+}
 
+#site_revendeur {
+    display: block;
+    margin-left: 2.7%;
+    padding-right: 1.7%;
+    color: #fff;
+    border-radius: 5%;
+    background-color:black;
+    padding: 0 10px;
+    border: 0;
 
+}
 
+#name {
+    margin-left: 24.5%;
+    padding-right: 5.5%;
+}
 
+#image {
+    margin-left: 3%;
+    color:white;
+    border-radius: 10px;
+    background-color: crimson;
+    padding: 0 10px;
+    border: 0;
+    font-size: 1rem;
+    width: 30%;
+}
 
+#image:hover {
+    color: black;
+}
 
-
+legend {
+    background-color:#FF7325;
+    border-radius: 10px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
 
 
 

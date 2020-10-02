@@ -8,3 +8,156 @@
         <link rel="stylesheet" href="liste-naissance.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
     </head>
+
+    <body>
+        <header id="header">
+            <section id="hd_env">
+                <div id="hd_logo">
+                    <a href="liste-naissance.html" title="Pinochio, le spécialiste de la liste de cadeaux en ligne gratuite">
+                    <img src="media/pinochio.png" alt="Pinochio, le spécialiste de la liste de cadeaux en ligne gratuite" /></a>
+                </div>
+                <article id="titre_site">
+                    <a href="liste-naissance.html" title="Pinochio, le spécialiste de la liste de cadeaux en ligne gratuite">
+                    <h1 id="titre_site_texte">Pinocchio, votre spécialiste de la liste de cadeaux en ligne gratuite </h1></a>
+                </article>
+                <div id="hd_compte">
+                    <a href="@monsite" id="hd_compte_text">SE CONNECTER / S'INSCRIRE</a>
+                </div>
+            </section>  
+
+        <nav id="top_nav">
+            <ul id="top_liste">
+                <li><a href="@monsite"> Comment ça marche ?</a></li>
+                <li><a href="@monsite">Créer une liste</a></li>
+                <li><a href="@monsite">Gérer</a></li>
+                <li><a href="@monsite">Rechercher</a></li>
+                <li><a href="@monsite">Nos Listes</a></li>
+                <li><a href="@monsite">Prestataires</a></li>
+                <li><a href="@monsite">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body--formulaire-->
+
+    <form action="liste-naissance.html">
+        
+            <div id="name_div">
+                <label for="name">Nom </label>
+                <input type="text" id="name" name="user_name" required placeholder="Nom de l'article">
+            </div>
+            <div>
+                <label for="image">Importer une image</label>
+                <input type="button" onclick="window.open('file://c:/windows')" id="image" name="upload_image" value="Parcourir">
+            </div>
+
+            <div id="catégorie_div">
+                <fieldset>
+                    <legend>Choisir votre catégorie</legend>
+                        <div>
+                            <input type="radio" id="poussette" name="catégorie" checked>
+                            <label for="poussette">poussette</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="vêtements bébé" name="catégorie">
+                            <label for="vêtements bébé">vêtements bébé</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="siège auto" name="catégorie">
+                            <label for="siège auto">siège auto</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="éveil" name="catégorie">
+                            <label for="éveil">éveil</label>
+                        </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                <legend>Priorité </legend>
+                    <div>
+                        <input type="radio" id="urgent" name="priorité" checked>
+                        <label for="urgent">urgent</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="déjà sélectionné" name="priorité">
+                        <label for="déjà sélectionné">déjà sélectionné</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="déjà offert" name="priorité">
+                        <label for="déjà offert">déjà offert</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="offrir" name="priorité">
+                        <label for="offrir">offrir</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div id="description_div">
+                <label for="msg">Description </label>
+                <textarea id="msg" name="user_message" placeholder="Mettre votre description ici" required></textarea>
+            </div>
+            <div id="selector_div">
+                <label for="site_revendeur">Choisir un revendeur</label>
+                    <select name="site" id="site_revendeur" required>
+                        <option value="">--Liste des revendeurs--</option>
+                        <option value="bebe9">bebe9</option>
+                        <option value="aubert">aubert</option>
+                        <option value="bebitus">bebitus</option>
+                        <option value="allobébé">allobébé</option>
+                        <option value="bambinou">bambinou</option>
+                        <option value="madeinbebe">madeinbebe</option>
+                    </select>
+            </div>
+            <div id="submit_bt">
+                <input type="submit"; value="Ajouter">
+            </div>
+       
+    </form>
+
+
+     <!-- Footer -->
+
+     <footer id="footer">
+        <section id="ft_pin">
+            <article id="ft_row_apropos">
+                <h3 class="bot_sous_titre">A propos de Pinocchio</h3>
+                    <nav id="bot_nav_1">
+                        <ul id="bot_liste_1">
+                            <li><a href="@monsite">Nos Services</a></li>
+                            <li><a href="@monsite">Contactez-nous</a></li>
+                            <li><a href="@monsite">Carrières</a></li>
+                            <li><a href="@monsite">Ils parlent de nous</a></li>
+                        </ul>
+                    </nav>
+            </article>
+            <article id="ft_row_infoslegal">
+                <h3 class="bot_sous_titre">Infos Légales</h3>
+                    <nav id="bot_nav_2">
+                        <ul id="bot_liste_2">
+                            <li><a href="@monsite">Mentions légales</a></li>
+                            <li><a href="@monsite">Politique de confidentialité</a></li>
+                            <li><a href="@monsite">CGU</a></li>
+                            <li><a href="@monsite">CGV</a></li>
+                        </ul>
+                    </nav>
+            </article>
+            <article id="ft_row_socialmedia">
+                <h3 class="bot_sous_titre">Retrouvez-nous sur</h3>
+                    <nav id="bot_nav_3">
+                        <ul id="bot_liste_3">
+                            <li><a href="https://www.facebook.com/"<i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"<i class="fab fa-linkedin-in"></i></i></a></li>
+                            <li><a href="https://twitter.com/"<i class="fab fa-twitter"></i></i></a></li>
+                            <li><a href="https://www.instagram.com/"<i class="fab fa-instagram"></i></i></a></li>
+                        </ul>
+                    </nav>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
+
+
