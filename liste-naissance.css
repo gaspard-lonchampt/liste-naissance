@@ -245,8 +245,32 @@ td img {
     text-decoration: green underline;
 }
 
+/* bouton vers formulaire */
+
+#formulaire_nav {
+    text-align: center;
+    padding: 2%;
+}
+
+#formulaire_bt {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+#formulaire_bt:hover {
+    background-color: crimson;
+
+}
 
 /*-------------Body--Formulaire-------*/
+
+
 
 
 
